@@ -33,13 +33,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls`  -- lists files and directories without additional details
-`ls -a` -- lists files including hidden files starting with '.'
-`ls -l` -- shows file or directory, size, modified date and time, name and owner
-`ls -lh` --above 'ls -l' in human readable format
-`ls -lah`  --above 'ls -lah' including hidden files
-`ls -t`  
-`ls -Glp`
+ls  -- lists files and directories without additional details
+ls -a -- lists files including hidden files starting with '.'
+ls -l -- shows file or directory, size, modified date and time, name and owner
+ls -lh --above 'ls -l' in human readable format
+ls -lah  --above 'ls -lah' including hidden files
+ls -t  
+ls -Glp
 
 ---
 
