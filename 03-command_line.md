@@ -13,8 +13,13 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+pwd -- print working directory
+mkdir -- make directory
+cd -- change directory
+ls -- list directory
+cat -- print the whole file
+sudo -- super user root
+exit -- exit terminal
 ---
 
 ###Q2.  List Files in Unix   
@@ -28,7 +33,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  -- lists files and directories without additional details
+`ls -a` -- lists files including hidden files starting with '.'
+`ls -l` -- shows file or directory, size, modified date and time, name and owner
+`ls -lh` --above 'ls -l' in human readable format
+`ls -lah`  --above 'ls -lah' including hidden files
+`ls -t`  
+`ls -Glp`
 
 ---
 
@@ -44,7 +55,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Executes arguments
  
 
