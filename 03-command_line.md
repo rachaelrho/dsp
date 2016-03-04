@@ -13,16 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-pwd -- print working directory
-mkdir -- make directory
-cd -- change directory
-ls -- list directory
-cat -- print the whole file
-sudo -- super user root
-exit -- exit terminal
-cp -- copy a file
-mv -- move a file
-find -- find a file
+* pwd -- print working directory
+* mkdir -- make directory
+* cd -- change directory
+* ls -- list directory
+* cat -- print the whole file
+* sudo -- super user root
+* exit -- exit terminal
+* cp -- copy a file
+* mv -- move a file
+* find -- find a file
 ---
 
 ###Q2.  List Files in Unix   
