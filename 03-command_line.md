@@ -20,6 +20,9 @@ ls -- list directory
 cat -- print the whole file
 sudo -- super user root
 exit -- exit terminal
+cp -- copy a file
+mv -- move a file
+find -- find a file
 ---
 
 ###Q2.  List Files in Unix   
@@ -33,13 +36,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls  -- lists files and directories without additional details
-ls -a -- lists files including hidden files starting with '.'
-ls -l -- shows file or directory, size, modified date and time, name and owner
-ls -lh --above 'ls -l' in human readable format
-ls -lah  --above 'ls -lah' including hidden files
-ls -t  
-ls -Glp
+* ls  -- lists files and directories without additional details
+* ls -a -- lists files including hidden files starting with '.'
+* ls -l -- shows file or directory, size, modified date and time, name and owner
+* ls -lh --above 'ls -l' in human readable format
+* ls -lah  --above 'ls -lah' including hidden files
+* ls -t  -- displays newest files first
+* ls -Glp -- displays oldest files first (not sure about this one ...)
 
 ---
 
@@ -47,7 +50,11 @@ ls -Glp
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls -m -- displays files in comma separated list
+* ls -b -- displays nonprinting characters in octal
+* ls -d -- displays only directories
+* ls -f -- interprets each name as a director, not a file
+* ls -i -- displays the inode for each file
 
 ---
 
