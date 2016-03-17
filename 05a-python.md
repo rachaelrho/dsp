@@ -36,7 +36,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->>>List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions can be used for both `map` and `filter` as shown by the examples below:
+>>>List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions example below and equivalent results using `map` and `filter`:
 
 MAP
 ```def lowercase_all(v):
