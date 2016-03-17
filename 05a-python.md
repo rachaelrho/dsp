@@ -12,8 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> Lists and tuples are both a sequence of elements of any type. However, lists are mutable and tuples are not mutable, which basically means lists can be subsetted with the bracket operator with the position of an element (ex: cheeses[0] = "Cheddar") and tuples cannot conduct this command. Therefore lists leverage use keys in dictionaries.
 ---
 
 ###Q2. Lists &amp; Sets
