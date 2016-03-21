@@ -19,7 +19,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->>> Lists and sets are both sequences of elements of any type and are mutable. However lists cannot have duplicate data and have no idex. Lists perform better on iterating over values (looping) but sets are better for checking values in a set or common operations across sets.
+>>> Lists and sets are both sequences of elements of any type and are mutable. However lists cannot have duplicate data and have no index. Lists perform better on iterating over values (looping) but sets are better for checking values in a set or common operations across sets.
 ---
 
 ###Q3. Lambda Function
@@ -38,19 +38,38 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >>>List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions example below and equivalent results using `map` and `filter`:
 
+LIST
+```
+cubes = [x**3 for x in range (5)]
+print cubes
+
+```
 MAP
-```def lowercase_all(v):
-   list = []
-   for s in v: 
-      list.append(s.lower())
-   return list
+```
+def cube(x):
+   return x**3
+
+cubes = map(cube, range(5))
+print cubes
 ```
 
-FILTER
-```def only_lower(v):
-      return [s for s in v if s.islower()]
+FILTER (not sure what equivalent list or map function, but showed filter example here)
+```
+cubes_adj = filter(lambda x: x > 20, cubes)
+print cubes_adj
 ```
 
+SET COMPREHENSION
+```
+set = [x**3 for x in range(5)]
+print set
+```
+
+DICTIONARY COMPREHENSION
+```
+dict = {k:v for (k,v) in zip(keys, values)}
+print dict
+```
 
 ---
 
