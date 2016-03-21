@@ -26,58 +26,35 @@ def fix_start(s):
 
 
 def mix_up(a, b):
-    """
-    Given strings a and b, return a single string with a and b
-    separated by a space '<a> <b>', except swap the first 2 chars of
-    each string. Assume a and b are length 2 or more.
-
-    >>> mix_up('mix', 'pod')
-    'pox mid'
-    >>> mix_up('dog', 'dinner')
-    'dig donner'
-    >>> mix_up('gnash', 'sport')
-    'spash gnort'
-    >>> mix_up('pezzy', 'firm')
-    'fizzy perm'
-    """
-    raise NotImplementedError
+    a1 = b[:2] + a[2:]
+    b1 = a[:2] + b[2:]
+    print(a1 + str(' ') + b1)
+    
 
 
 def verbing(s):
-    """
-    Given a string, if its length is at least 3, add 'ing' to its end.
-    Unless it already ends in 'ing', in which case add 'ly' instead.
-    If the string length is less than 3, leave it unchanged. Return
-    the resulting string.
-
-    >>> verbing('hail')
-    'hailing'
-    >>> verbing('swiming')
-    'swimingly'
-    >>> verbing('do')
-    'do'
-    """
-    raise NotImplementedError
+    if len(s) > 2:
+        test = s[-3:]
+        if test == 'ing':
+            print(s + 'ly')
+        else:
+            print(s + 'ing')
+    else:
+        print(s)
+    
 
 
 def not_bad(s):
-    """
-    Given a string, find the first appearance of the substring 'not'
-    and 'bad'. If the 'bad' follows the 'not', replace the whole
-    'not'...'bad' substring with 'good'. Return the resulting string.
-    So 'This dinner is not that bad!' yields: 'This dinner is
-    good!'
-
-    >>> not_bad('This movie is not so bad')
-    'This movie is good'
-    >>> not_bad('This dinner is not that bad!')
-    'This dinner is good!'
-    >>> not_bad('This tea is not hot')
-    'This tea is not hot'
-    >>> not_bad("It's bad yet not")
-    "It's bad yet not"
-    """
-    raise NotImplementedError
+    substring1 = "not"
+    substring2 = "bad"
+    if substring1 in s and substring2 in s:
+        substring1_pos = s.index(substring1) 
+        substring2_pos = s.index(substring2) 
+        if substring1_pos < substring2_pos:
+            s = string.replace(s,s[substring1_pos:(substring2_pos+3)],'good')
+            print(s)
+        else:
+            print(s)
 
 
 def front_back(a, b):
