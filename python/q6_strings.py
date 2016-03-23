@@ -58,19 +58,6 @@ def not_bad(s):
 
 
 def front_back(a, b):
-    """
-    Consider dividing a string into two halves. If the length is even,
-    the front and back halves are the same length. If the length is
-    odd, we'll say that the extra char goes in the front half. e.g.
-    'abcde', the front half is 'abc', the back half 'de'. Given 2
-    strings, a and b, return a string of the form a-front + b-front +
-    a-back + b-back
-
-    >>> front_back('abcd', 'xy')
-    'abxcdy'
-    >>> front_back('abcde', 'xyz')
-    'abcxydez'
-    >>> front_back('Kitten', 'Donut')
-    'KitDontenut'
-    """
+    alen, blen = (len(a)+1)/2, (len(b)+1)/2
+    return a[:alen] + b[:blen] +  a[alen:] + b[blen:]
     raise NotImplementedError
