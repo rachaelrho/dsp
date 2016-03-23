@@ -25,17 +25,5 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
-    """
-    Given two lists sorted in increasing order, create and return a
-    merged list of all the elements in sorted order. You may modify
-    the passed in lists. Ideally, the solution should work in "linear"
-    time, making a single pass of both lists.
-
-    >>> linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc'])
-    ['aa', 'bb', 'cc', 'xx', 'zz']
-    >>> linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz'])
-    ['aa', 'bb', 'cc', 'xx', 'zz']
-    >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
-    ['aa', 'aa', 'aa', 'bb', 'bb']
-    """
-    raise NotImplementedError
+    newList = sorted(list1 + list2)
+    print(newList)
