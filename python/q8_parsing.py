@@ -7,10 +7,14 @@
 # The below skeleton is optional.  You can use it or you can write the script with an approach of your choice.
 
 
-import csv
+#import csv
+import pandas as pd
 
   def read_data(data):
-   # COMPLETE THIS FUNCTION
+    d = pd.read_csv(data)
+    print d
+  ##when i read in the data with a function i can't seem to call d (the data) afterwards. can you advise a different approach?
+
 
   def get_min_score_difference(self, parsed_data):
     # COMPLETE THIS FUNCTION
