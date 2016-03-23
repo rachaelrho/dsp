@@ -18,22 +18,10 @@ def sort_last(tuples):
 
 
 def remove_adjacent(nums):
-    """
-    Given a list of numbers, return a list where all adjacent equal
-    elements have been reduced to a single element, so [1, 2, 2, 3]
-    returns [1, 2, 3]. You may create a new list or modify the passed
-    in list.
-
-    >>> remove_adjacent([1, 2, 2, 3])
-    [1, 2, 3]
-    >>> remove_adjacent([2, 2, 3, 3, 3])
-    [2, 3]
-    >>> remove_adjacent([3, 2, 3, 3, 3])
-    [3, 2, 3]
-    >>> remove_adjacent([])
-    []
-    """
-    raise NotImplementedError
+    if len(nums) > 0:
+        return [a for a, b in zip(nums, nums[1:]+[not nums[-1]]) if a != b]
+    else:
+        print([])
 
 
 def linear_merge(list1, list2):
