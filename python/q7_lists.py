@@ -3,19 +3,8 @@
 
 
 def match_ends(words):
-    """
-    Given a list of strings, return the count of the number of strings
-    where the string length is 2 or more and the first and last chars
-    of the string are the same.
-
-    >>> match_ends(['aba', 'xyz', 'aa', 'x', 'bbb'])
-    3
-    >>> match_ends(['', 'x', 'xy', 'xyx', 'xx'])
-    2
-    >>> match_ends(['aaa', 'be', 'abc', 'hello'])
-    1
-    """
-    raise NotImplementedError
+    length = filter(lambda x: len(x)>1 and x[:1] == x[-1:], words)
+    print(len(length))
 
 
 def front_x(words):
