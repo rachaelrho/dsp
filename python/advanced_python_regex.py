@@ -31,3 +31,16 @@ for line in hand:
         print x
 
 ##Q4
+
+import re
+
+hand = open('C:\\Users\\rrho002\\Desktop\\Personal\\Metis\\faculty.txt')
+email = []
+
+for line in hand: 
+    line = line.rstrip()
+    x = re.findall('@(.*)$', line)
+    if len(x) > 0:
+        email.append(x)
+
+print(np.unique(np.array(email)))
