@@ -21,22 +21,25 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ```
 B.S.Ed. M.S. Ph.D.: 1
-JD MA MPH MS PhD: 4
-MD MPH Ph.D: 9
-Ph.D: 17
-Ph.D.: 17
-PhD: 2
-PhD ScD: 5
-Sc.D.: 22
-ScD: 1
-0: 1
-Ph.D.: 1
+JD MA MPH MS PhD: 1
+MD MPH Ph.D: 1
+Ph.D: 34
+PhD: 9
+PhD ScD: 1
+Sc.D.: 4
+ScD: 2
+0: 5
+Ph.D.: 22
+##I know some of these are repeats, but kept the same degrees spelled slightly differently, separate
 ```
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+'Assistant Professor of Biostatistics': 11
+'Professor of Biostatistics': 36
+'Assistant Professor is Biostatistics': 1
+'Associate Professor of Biostatistics': 12
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
@@ -83,7 +86,8 @@ Ph.D.: 1
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+```
+
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
