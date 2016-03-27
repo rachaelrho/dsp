@@ -88,9 +88,10 @@ Ph.D.: 22
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
 ```
-
-
-Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
+cceb.med.upenn.edu
+email.chop.edu
+mail.med.upenn.edu
+upenn.edu
 ```
 ---
 
