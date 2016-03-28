@@ -42,28 +42,28 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions example below and equivalent results using `map` and `filter`:
 
 LIST
-```
+
 cubes = [x**3 for x in range (5)]
 print cubes
 
-```
+
 MAP
-```
+
 def cube(x):
    return x**3
 
 cubes = map(cube, range(5))
 print cubes
-```
+
 
 FILTER (not sure what equivalent list or map function, but showed filter example here)
-```
+
 cubes_adj = filter(lambda x: x > 20, cubes)
 print cubes_adj
-```
+
 
 SET COMPREHENSION
-```
+
 set = [x**3 for x in range(5)]
 print set
 ```
