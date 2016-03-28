@@ -130,9 +130,9 @@ faculty_dict = { 'Ellenberg': [\
 Print the first 3 key and value pairs of the dictionary:
 
 ```
-'A. Russell Localio': [' JD MA MPH MS PhD','Associate Professor of Biostatistics', rlocalio@upenn.edu'],
-'Alisa Jane Stephens': [' Ph.D.','Assistant Professor of Biostatistics','alisaste@mail.med.upenn.edu'],
-'Andrea Beth Troxel': [' ScD','Professor of Biostatistics','atroxel@mail.med.upenn.edu']
+[{('Bellamy',): [(' Sc.D.','Associate Professor of Biostatistics','bellamys@mail.med.upenn.edu')]},
+ {('Bilker',): [('Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu')]},
+ {('Bryan',): [(' PhD','Assistant Professor of Biostatistics','bryanma@upenn.edu')]}]
 ```
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
