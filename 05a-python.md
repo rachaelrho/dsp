@@ -19,25 +19,27 @@ Lists and tuples are both sequences of elements of any type. However, lists are 
 ###Q2. Lists &amp; Sets
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
-
->>> Lists and sets are both sequences of elements of any type and are mutable. However lists cannot have duplicate data and have no index. Lists perform better on iterating over values (looping) but sets are better for checking values in a set or common operations across sets.
+```
+Lists and sets are both sequences of elements of any type and are mutable. However lists cannot have duplicate data and have no index. Lists perform better on iterating over values (looping) but sets are better for checking values in a set or common operations across sets.
+```
 ---
 
 ###Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
+```
+Lambda is an anonymous function in Python that can be used to build functions and are resticted to a single expression. They are generally used for one-off functions only used once. For instance, a lambda function can directly specify a function in the `key` argument in the sorted function. The example below shows this for sorting from A to Z regardless of lower or uppercase in the list:
 
->>> Lambda is an anonymous function in Python that can be used to build functions and are resticted to a single expression. They are generally used for one-off functions only used once. For instance, a lambda function can directly specify a function in the `key` argument in the sorted function. The example below shows this for sorting from A to Z regardless of lower or uppercase in the list:
-
-```sorted(['red', 'Orange', 'Green', 'blue'], key = lambda word: word.lower())```
-```['blue', 'Green', 'Orange', 'red']```
+sorted(['red', 'Orange', 'Green', 'blue'], key = lambda word: word.lower())
+['blue', 'Green', 'Orange', 'red']
+```
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
-
->>>List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions example below and equivalent results using `map` and `filter`:
+```
+List comprehensions provide a way to create lists using bracket operators, expression inside the brackets that specifies the elements of a list and a for clause that indicates the sequence to be traversed. List comprehensions example below and equivalent results using `map` and `filter`:
 
 LIST
 ```
