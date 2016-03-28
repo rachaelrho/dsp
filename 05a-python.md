@@ -66,10 +66,10 @@ SET COMPREHENSION
 
 set = [x**3 for x in range(5)]
 print set
-```
+
 
 DICTIONARY COMPREHENSION
-```
+
 dict = {k:v for (k,v) in zip(keys, values)}
 print dict
 ```
