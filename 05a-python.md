@@ -27,6 +27,7 @@ Lists and sets are both sequences of elements of any type and are mutable. Howev
 ###Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
+
 ```
 Lambda is an anonymous function in Python that can be used to build functions and are resticted to a single expression. They are generally used for one-off functions only used once. For instance, a lambda function can directly specify a function in the `key` argument in the sorted function. The example below shows this for sorting from A to Z regardless of lower or uppercase in the list:
 
