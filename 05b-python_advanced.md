@@ -35,6 +35,7 @@ Ph.D.: 22
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
+
 ```
 'Assistant Professor of Biostatistics': 11
 'Professor of Biostatistics': 36
